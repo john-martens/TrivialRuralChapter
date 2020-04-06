@@ -6,7 +6,7 @@ game.display.set_caption("Window Title Goes Here")
 screen = game.display.set_mode([800, 600])
 gameon = True
 bgcolor = game.color.Color("#f6cb39")
-alien = game.image.load("http://icons.iconarchive.com/icons/goodstuff-no-nonsense/free-space/256/space-invader-icon.png")
+alien = game.image.load("space-invader-icon.png")
 # main loop of the game
 while gameon:
     screen.fill(bgcolor)
